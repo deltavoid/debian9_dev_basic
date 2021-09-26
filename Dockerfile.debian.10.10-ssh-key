@@ -9,8 +9,6 @@ RUN apt-get update && apt-get install -y \
     vim \
     ssh
 
-# RUN mkdir -p ~/.ssh && 
-
 RUN echo "PermitRootLogin yes" >> /etc/ssh/sshd_config
 
 ADD authorized_keys /root/.ssh/authorized_keys
