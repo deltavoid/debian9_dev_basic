@@ -70,7 +70,7 @@ jobs:
       - name: Test environment
         run: |
           uname -a 
-          cat /etc/debain_version
+          cat /etc/debian_version
           ip a 
           docker --version
       
