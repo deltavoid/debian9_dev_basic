@@ -1,7 +1,7 @@
 
-deb http://mirrors.tuna.tsinghua.edu.cn/debian buster main
-deb http://mirrors.tuna.tsinghua.edu.cn/debian buster-updates main
-deb http://mirrors.tuna.tsinghua.edu.cn/debian-security buster/updates main
+deb http://mirrors.tuna.tsinghua.edu.cn/debian buster main contrib non-free
+deb http://mirrors.tuna.tsinghua.edu.cn/debian buster-backports main contrib non-free
+deb http://mirrors.tuna.tsinghua.edu.cn/debian-security buster/updates main contrib non-free
 
 
 deb http://deb.debian.org/debian buster main
