@@ -2,7 +2,10 @@
 
 
 
-docker build -f Dockerfile.debian.10.10-ssh-key -t debian:10.10-ssh-key .
+// docker build -f Dockerfile.debian.10.10-ssh-key -t debian:10.10-ssh-key .
+
+
+docker build -f Dockerfile -t debian9_dev_basic .
 
 
 docker run -it -p 1023:22 debian:10.10-ssh-key
